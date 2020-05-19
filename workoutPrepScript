@@ -25,5 +25,6 @@ on run {input, parameters}
 	delay 60 # just for a bit warming up before the countdown
 	tell application "Google Chrome" to tell active tab of window 1
 		execute javascript "document.getElementsByClassName('timerBigButton')[2].click();"
-	end tell	return input
+	end tell	
+	return input
 end run
