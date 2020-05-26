@@ -26,3 +26,9 @@ delay 60
 tell application "Google Chrome" to tell active tab of window 1
 	execute javascript "document.getElementsByClassName('timerBigButton')[2].click();"
 end tell
+
+# OPEN FOLDER UP FRONT
+tell application "Finder"
+	activate
+	open "Macintosh HD:Users:user:Dropbox:WorkOuts:" 
+end tell
