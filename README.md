@@ -7,13 +7,13 @@ With automating the tabata interval training timer + workout playlist in one key
 This two bits of AppleScript code can be set in Automator. 
 They work fine in MacOS Catalina >10.15.
 
-# start spotify workout playlist
+## start spotify workout playlist ##
 The first script opens Spotify and starts playing the playlist of choice.
 
-# open tabatatimer.com on Chrome
+## open tabatatimer.com on Chrome ##
 The second script opens a new page on Chrome with the interval training site of choice (tabatatimer.com in this case), and starts the count down. This is the page on view.
 
-# open workout folder
+## open workout folder ##
 this optionally would open a folder up front to browse workout material
 
 Enjoy!
